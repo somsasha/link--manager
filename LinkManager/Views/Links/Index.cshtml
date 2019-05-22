@@ -1,0 +1,98 @@
+﻿@using LinkManager.DAL.Models
+@model LinkManager.ViewModels.LinkIndexViewModel
+
+@{
+    Layout = "/Views/Home/_Layout.cshtml";
+    var currentPage = (int)ViewData["Page"];
+}
+
+<div class="row">
+    <div class="col-3 px-5" style="justify-content: center">
+        <div class="row py-4">
+            <div class="col-12" style="text-align: center"><a class="btn btn-outline-primary" asp-action="Create">Add new</a></div>
+        </div>
+        <div class="row py-4" style="justify-content: center">
+            <div class="col-6" style="border:black;border-width:1px;border-style:solid;border-radius:2rem;">
+                <div class="row" style="justify-content: center">Tags search</div>
+                @foreach (var tag in Model.Tags)
+                {
+                    <div class="row" style="justify-content: center"><a class="btn btn-outline-info tag-cntrl-lg" title="@tag.Name" href="?tagId=@tag.Id">@tag.Name</a></div>
+                }
+                <div class="row" style="height: 1rem"></div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-12">
+                <form class="form-inline md-form form-sm mt-5" style="justify-content: center">
+                    <input class="form-control form-control-sm mr-3 w-50" type="text" name="extSearch" placeholder="Search" aria-label="Search">
+                    <i class="fas fa-search active" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Link.FirstOrDefault().Order)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Link.FirstOrDefault().Url)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Link.FirstOrDefault().Description)
+                    </th>
+                    <th style="width: 40%">
+                        Tags
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Link)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Order)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Url)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            <div style="max-width: 70%">
+                                @foreach (var tag in item.LinkTags?.Select(_ => _.Tag) ?? new List<Tag>())
+                                {
+                                    <a class="btn btn-outline-primary tag-cntrl" title="@tag.Name" href="?tagId=@tag.Id">@tag.Name</a>
+                                }
+                            </div>
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" style="text-align: center">
+                        @if (currentPage > 0)
+                        {
+                            <a href="?page=@(currentPage - 1)">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        }
+                        @currentPage
+                        <a href="?page=@(currentPage + 1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+

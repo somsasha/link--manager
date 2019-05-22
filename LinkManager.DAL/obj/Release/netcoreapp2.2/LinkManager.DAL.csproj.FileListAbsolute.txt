@@ -1,0 +1,12 @@
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\bin\Release\netcoreapp2.2\LinkManager.DAL.deps.json
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\bin\Release\netcoreapp2.2\LinkManager.DAL.dll
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\bin\Release\netcoreapp2.2\LinkManager.DAL.pdb
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\bin\Release\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\bin\Release\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.csprojAssemblyReference.cache
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.AssemblyInfoInputs.cache
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.AssemblyInfo.cs
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.csproj.CopyComplete
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.dll
+C:\Users\alexander.melah\source\repos\LinkManager\LinkManager.DAL\obj\Release\netcoreapp2.2\LinkManager.DAL.pdb

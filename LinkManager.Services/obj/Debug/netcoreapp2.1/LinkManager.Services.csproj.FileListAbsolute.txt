@@ -1,0 +1,16 @@
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\LinkManager.Services.deps.json
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\LinkManager.Services.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\LinkManager.Services.pdb
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\LinkManager.DAL.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\LinkManager.DAL.pdb
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.csprojAssemblyReference.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.csproj.CoreCompileInputs.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.AssemblyInfoInputs.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.AssemblyInfo.cs
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.csproj.CopyComplete
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.Services\obj\Debug\netcoreapp2.1\LinkManager.Services.pdb

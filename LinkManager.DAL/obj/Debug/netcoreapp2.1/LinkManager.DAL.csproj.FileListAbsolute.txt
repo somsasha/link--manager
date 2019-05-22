@@ -1,0 +1,12 @@
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\bin\Debug\netcoreapp2.1\LinkManager.DAL.deps.json
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\bin\Debug\netcoreapp2.1\LinkManager.DAL.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\bin\Debug\netcoreapp2.1\LinkManager.DAL.pdb
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.csprojAssemblyReference.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.AssemblyInfoInputs.cache
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.AssemblyInfo.cs
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.csproj.CopyComplete
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.dll
+C:\Users\somsa\Documents\GitHub\LinkManager\LinkManager.DAL\obj\Debug\netcoreapp2.1\LinkManager.DAL.pdb
