@@ -1,0 +1,5 @@
+<div class="row" style="justify-content: center">Tags search</div>
+<div div *ngFor="let tag of recentTags">
+<div class="row" style="justify-content: center">
+    <a class="btn btn-outline-info tag-cntrl-lg" title="{{ tag.Name }}" [routerLink]="['/']" [queryParams]="{tagId: tag.Id }">{{ tag.Name }}</a>
+</div>

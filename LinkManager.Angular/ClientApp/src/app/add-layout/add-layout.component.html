@@ -1,0 +1,42 @@
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+    <form asp-action="Create">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="form-group">
+        <label class="control-label" for="Order">Order</label>
+        <input #order class="form-control" type="number" data-val="true"
+          data-val-required="The Order field is required." id="Order" name="Order" value="">
+        <span class="text-danger field-validation-valid" data-valmsg-for="Order" data-valmsg-replace="true"></span>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="Url">Url</label>
+        <input #url class="form-control" type="url" data-val="true"
+          data-val-url="The Url field is not a valid fully-qualified http, https, or ftp URL." id="Url" name="Url"
+          value="">
+        <span class="text-danger field-validation-valid" data-valmsg-for="Url" data-valmsg-replace="true"></span>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="Description">Description</label>
+        <input #desc class="form-control" type="text" id="Description" name="Description" value="">
+        <span class="text-danger field-validation-valid" data-valmsg-for="Description"
+          data-valmsg-replace="true"></span>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="Description">Tags</label>
+        <input #tags class="form-control" type="text" id="Tags" name="Tags" value="">
+        <span class="text-danger field-validation-valid" data-valmsg-for="Tags"
+          data-valmsg-replace="true"></span>
+      </div>
+      <div class="form-group">
+        <button type="submit" (click)="addLink(order.value, url.value, desc.value, tags.value)"
+          class="btn btn-primary">Create</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div>
+  <a [routerLink]="['/']">Back to List</a>
+</div>
+</div>

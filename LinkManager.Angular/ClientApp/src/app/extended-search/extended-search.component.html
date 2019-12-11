@@ -1,0 +1,4 @@
+<form class="form-inline md-form form-sm mt-5" style="justify-content: center">
+        <input #extSearchc class="form-control form-control-sm mr-3 w-50" type="text" name="extSearch" placeholder="Search" aria-label="Search">
+        <a [routerLink]="['/']" [queryParams]="{extSearch: extSearchc.value }"><fa name="search" aria-hidden="true"></fa></a>
+    </form>

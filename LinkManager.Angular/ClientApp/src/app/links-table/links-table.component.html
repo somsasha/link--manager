@@ -1,0 +1,41 @@
+<table class="table">
+        <thead>
+          <tr>
+            <th>
+              Order
+            </th>
+            <th>
+              Url
+            </th>
+            <th>
+              Description
+            </th>
+            <th style="width: 40%">
+              Tags
+            </th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let link of links">
+            <td>
+              {{ link.Order }}
+            </td>
+            <td>
+              {{ link.Url }}
+            </td>
+            <td>
+              {{ link.Description }}
+            </td>
+            <td>
+              <div style="max-width: 70%">
+                    <a *ngFor="let tag of link.TagObjects" class="btn btn-outline-primary tag-cntrl" title="{{ tag.Name }}" [routerLink]="['/']" [queryParams]="{tagId: tag.Id }">{{ tag.Name }}</a>
+              </div>
+            </td>
+            <td>
+              <a [routerLink]="['/edit/' + link.Id]" [state]="{ data: link }">Edit</a> <a  href="#" (click)="deleteLink(link.Id)">Delete</a>
+            </td>
+          </tr>
+          <!-- } -->
+        </tbody>
+      </table>
